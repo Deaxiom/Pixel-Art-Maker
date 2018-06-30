@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pixel Art Maker!</title>
+    <title>Pixel Art Maker!</title><!-- my title-->
+    <meta charset= "utf-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="jscolor.min.js"></script>
 </head>
-<body>
-<h1><span style="color: #4a90e2">L</span><span style="color: #93e28e">a</span><span style="color: #e270cf">b</span>
-    <span style="color: #e2d45e">:</span> <span style="color: #5be2cc">P</span><span style="color: #ac84e2">i</span>
-    <span style="color: #e233a3">x</span><span style="color: #2ae2dc">e</span><span style="color: #e25258">l</span>
-    <span style="color: #6ae297">A</span><span style="color: #e2d595">r</span><span style="color: #7ee27d">t</span>
-    <span style="color: #bf92e2">M</span><span style="color: #3cbfe2">a</span><span style="color: #e24f5a">k</span>
-    <span style="color: #dde29d">e</span><span style="color: #8fe278">r</span></h1>
+<body><!--the content of the body goes here-->
+<h1><span style="color: #031BD5">A</span><span style="color: #450378">x</span><span style="color: #020121">i</span>
+	<span style="color: #031BD5">o</span><span style="color: #450378">m</span>
+    <span style="color: #9D8207">:</span><span style="color: #16EDEA">P</span><span style="color: #93081F">i</span>
+    <span style="color: #020121">x</span><span style="color: #9FD705">e</span><span style="color: #9D8207">l</span>
+    <span style="color: #ED4E16">A</span><span style="color: #ED4E16">r</span><span style="color: #16EDEA">t</span>
+    <span style="color: #A879CD">M</span><span style="color: #031BD5">a</span><span style="color: #5F5CD5">k</span>
+    <span style="color: #9D8207">e</span><span style="color: #A879CD">r</span></h1><!--colors to beautify the heading-->
 
     <h2>Choose Grid Size</h2>
     <form id="sizePicker">
         Grid Height:
-        <input type="number" id="input_height" name="height" min="1" max="50" value="1">
+        <input type="number" id="input_height" name="height" min="1" max="50" value="1"><!--input the height of the makeGrid-->
         Grid Width:
         <input type="number" id="input_width" name="width" min="1" max="50" value="1">
-        <button id="submit" type="button" onclick="makeGrid()">Submit</button>
+        <button id="submit" type="button" onclick="makeGrid()">Submit</button><!--input the width of the makeGrid-->
         <button type="reset" onclick="backUp()">Reset</button>
     </form>
 <div class="" id="error"></div>
