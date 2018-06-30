@@ -2,7 +2,7 @@
 // Select size input
 
 // When size is submitted by the user, call makeGrid()
-
+<!-- here is the height, and width -->
 let height, width, color, reset;
 function makeGrid() {
     $("#pixel_canvas").html("");
@@ -27,6 +27,7 @@ function makeGrid() {
         }
     }
 }
+<!-- here is the color Picker -->
 color = $('#colorPicker');
 $(document).on("mousedown", "tr td", function () {
     let colorValue = color.val();
